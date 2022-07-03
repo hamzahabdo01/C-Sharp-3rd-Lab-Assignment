@@ -11,12 +11,12 @@ namespace C_Sharp_Lab_3
         public int Length { get; set; }
         public int Width { get; set; }
 
-        public double calculateArea()
+        public override double calculateArea()
         {
             return Length * Width;
         }
 
-        public double calculatePerimeter()
+        public override double calculatePerimeter()
         {
             return 2 * (Length + Width);
         }

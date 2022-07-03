@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Lab_3
 {
-    interface Shape
+    abstract class Shape
     {
-        double calculateArea();
-        double calculatePerimeter();
+       public abstract double calculateArea();
+       public abstract double calculatePerimeter();
     }
 }
